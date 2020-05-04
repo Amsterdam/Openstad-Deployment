@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Openstad Deployment</title>
+  <!-- Needed for mobile sites to work -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body>
+  <header>
+    <h1> Openstad deployment </h1>
+  </header>
+  <div id="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <div id="steps">
+            <div class="step active" data-desc="Authenticate">1</div>
+            <div class="step" data-desc="Settings">2</div>
+            <div class="step " data-desc="Confirmation">3</div>
+          </div>
+
+          {% block body %}{% endblock %}
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

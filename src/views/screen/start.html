@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class="card block-center shadow-md">
+    <h3> Login bij Digital Ocean </h3>
+
+    <form action="/connect/digitalocean" method="POST" accept-charset="utf-8">
+      <button class="btn">Login</button>
+    </form>
+  </div>
+
+{% endblock %}

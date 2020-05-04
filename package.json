@@ -1,0 +1,42 @@
+{
+  "name": "openstad-deployment",
+  "version": "1.0.0",
+  "description": "A node server for easily deploying new Openstad-App servers",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amsterdam/Openstad-Deployment.git"
+  },
+  "keywords": [
+    "nodejs",
+    "deployment",
+    "openstad"
+  ],
+  "author": "Tosh Koevoets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Amsterdam/Openstad-Deployment/issues"
+  },
+  "homepage": "https://github.com/Amsterdam/Openstad-Deployment#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "csurf": "^1.9.0",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.5.x",
+    "express": "^4.10.x",
+    "express-brute": "^1.0.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.16.2",
+    "express-validator": "^5.3.0",
+    "grant": "^5.0.1",
+    "grant-express": "^5.0.1",
+    "nodemailer": "^2.3.0",
+    "nodemon": "^1.18.9",
+    "npm-run-all": "^4.1.5",
+    "nunjucks": "^3.1.3"
+  }
+}
