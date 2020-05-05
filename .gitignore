@@ -1,3 +1,5 @@
 .env
 node_modules
 ecosystem.json
+ecosystem.js
+ecosystem.config.js
