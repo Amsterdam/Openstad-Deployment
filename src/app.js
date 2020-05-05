@@ -66,7 +66,7 @@ app.use(grant({
   "digitalocean": {
     "key": process.env.DIGITAL_OCEAN_CLIENT_ID,
     "secret": process.env.DIGITAL_OCEAN_CLIENT_SECRET,
-    "redirect_url": process.env.ORIGIN + '/callback/digitalocean',
+    "redirect_uri": process.env.ORIGIN + '/callback/digitalocean',
     "scope": ["read", "write"],
     "response_type": "code",
     "callback": "/verified"
